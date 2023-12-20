@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sales_hit {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9A657;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    border-radius: 14px;
+    width: 95vw;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.sales_hit h2 {
+    font-size: 2em;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    align-self: flex-start;
+}
+.sales_hit_body {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
